@@ -47,7 +47,7 @@ public class productPane extends javax.swing.JFrame {
         jButton10 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Product Crud Operation");
+        setTitle("Bulldogs Exchange");
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -75,7 +75,7 @@ public class productPane extends javax.swing.JFrame {
 
         jButton4.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton4.setText("SELECT");
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 80, 180, 20));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 60, 180, 20));
 
         jButton3.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton3.setText("UPDATE");
@@ -129,9 +129,12 @@ public class productPane extends javax.swing.JFrame {
 
         jButton10.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton10.setText("SEARCH");
-        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 60, 180, 20));
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 80, 180, 20));
 
-        setBounds(0, 0, 587, 591);
+        getAccessibleContext().setAccessibleName("Crud_Operation");
+        getAccessibleContext().setAccessibleDescription("");
+
+        setBounds(0, 0, 577, 584);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
