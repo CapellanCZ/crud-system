@@ -75,23 +75,23 @@ public class productPane extends javax.swing.JFrame {
 
         jButton4.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton4.setText("SELECT");
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 90, 180, 20));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 80, 180, 20));
 
         jButton3.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton3.setText("UPDATE");
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 150, 80, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 80, -1));
 
         jButton5.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton5.setText("DELETE");
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, 80, -1));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 100, 90, -1));
 
         jButton6.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton6.setText("READ");
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 150, 70, -1));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, 70, -1));
 
         jButton7.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton7.setText("INSERT");
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 70, -1));
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 100, 90, -1));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -125,7 +125,7 @@ public class productPane extends javax.swing.JFrame {
 
         jButton9.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton9.setText("CLEAR");
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 150, 70, -1));
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 80, -1));
 
         jButton10.setFont(new java.awt.Font("Ebrima", 0, 11)); // NOI18N
         jButton10.setText("SEARCH");
